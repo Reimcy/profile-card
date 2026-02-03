@@ -1,13 +1,10 @@
-
-
+import { ProfileCard } from "./components/ProfileCard"
 
 function App() {
   
-  
   return (
-    <>
-      <h1>Incio de profile-cards</h1>
-    </>
+  
+  <ProfileCard/>
   )
 }
 
