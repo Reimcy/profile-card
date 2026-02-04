@@ -2,13 +2,17 @@
 export function UserAvatar() {
 
     return (
-        <div className="relative -mt-16 mb-4 flex flex-col items-center">
-            <div className="p-1.5 bg-white rounded-full">
-              <img 
-                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" 
-                alt="Foto de perfil" 
-                className="w-28 h-28 rounded-full object-cover shadow-md"
-              />
+       <>
+        <div className="relative -mt-3.5">
+
+            <div className="relative -mt-16 mb-4 flex flex-col items-center">
+                <div className="p-1.5 bg-white rounded-full">
+                <img 
+                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" 
+                    alt="Foto de perfil" 
+                    className="w-28 h-28 rounded-full object-cover shadow-md"
+                    />
+                </div>
             </div>
 
             <div className="text-center mb-6">
@@ -24,5 +28,7 @@ export function UserAvatar() {
                 </div>
             </div>
         </div>
+       </> 
+       
     )
 }
